@@ -1,0 +1,33 @@
+{
+  "name": "angular-todo",
+  "version": "1.0.0",
+  "description": "To-do app using AngularJS and Express",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sothychan/angular-todo"
+  },
+  "keywords": [
+    "angular",
+    "express",
+    "todo",
+    "tutorial"
+  ],
+  "author": "Sothy Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sothychan/angular-todo/issues"
+  },
+  "homepage": "https://github.com/sothychan/angular-todo",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "express-session": "^1.11.3",
+    "mongoose": "^4.1.2",
+    "mongoose-timestamps": "0.0.1",
+    "morgan": "^1.6.1"
+  }
+}
